@@ -1,0 +1,7 @@
+<p>component2 works!</p>
+<h1>Department Details</h1>
+<ul class = "depUL">
+  <li (click)="onDeptSelect(department)" *ngFor="let department of departments">
+    <span>{{department.id}}</span><span>{{department.name}}</span>
+  </li>
+</ul>
